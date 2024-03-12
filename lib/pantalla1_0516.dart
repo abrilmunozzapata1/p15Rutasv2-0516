@@ -13,16 +13,17 @@ class Pantalla1_0516 extends StatelessWidget {
         backgroundColor: Colors.deepPurple,
       ),
       body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(
-              onPressed: () {}, //fin de onPressed
-              child: const Text("Pantalla1"),
-            )
-          ], //fin ninos
+        child: Card(
+          color: Color(0xff92ddea),
+          child: Padding(
+            padding: EdgeInsets.all(16),
+            child: Text(
+              'Tarjeta Abril 1',
+              style: TextStyle(fontSize: 30, color: Color(0xffffffff)),
+            ),
+          ),
         ),
       ),
     );
-    ;
   } //fin widget
 } //fin pantalla1

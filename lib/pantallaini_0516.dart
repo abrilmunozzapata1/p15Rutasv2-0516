@@ -8,7 +8,7 @@ class PantallaIni_0516 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pagina inicial Munoz0516"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.blue,
       ),
       body: Center(
         child: Column(
@@ -18,7 +18,7 @@ class PantallaIni_0516 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/Pantalla1_0516");
               }, //fin onPressed
-              child: Text("Mover a pantalla1"),
+              child: Text("Ejemplo Card"),
             ),
             ElevatedButton(
               onPressed: () {
