@@ -10,17 +10,19 @@ class Pantalla1_0516 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Pantalla1 Munoz0516'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Color(0xff9effb6),
       ),
       body: Center(
-        child: Card(
-          color: Color(0xff92ddea),
-          child: Padding(
-            padding: EdgeInsets.all(16),
-            child: Text(
-              'Tarjeta Abril 1',
-              style: TextStyle(fontSize: 30, color: Color(0xffffffff)),
-            ),
+        child: Container(
+          color: Color(0xff69e1d7),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 200, horizontal: 10),
+          alignment: Alignment.center,
+          child: Text(
+            'Pantalla Abril 1',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),
